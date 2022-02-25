@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/memory_game/static/css/main.361ef40f.css",
+    "main.js": "/memory_game/static/js/main.1cf729bd.js",
+    "static/media/Memes.ttf": "/memory_game/static/media/Memes.fa25967b106cf4b8b77e.ttf",
+    "static/media/Memesique-Regular.ttf": "/memory_game/static/media/Memesique-Regular.15412d9e52dcb725a407.ttf",
+    "index.html": "/memory_game/index.html",
+    "main.361ef40f.css.map": "/memory_game/static/css/main.361ef40f.css.map",
+    "main.1cf729bd.js.map": "/memory_game/static/js/main.1cf729bd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.361ef40f.css",
+    "static/js/main.1cf729bd.js"
+  ]
+}
