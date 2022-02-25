@@ -1,0 +1,125 @@
+html,body, #root{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+@font-face {
+    font-family: 'MyFont'; 
+    src: url('./Memes.ttf') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MyFont2'; 
+    src: url('./Memesique-Regular.ttf') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+}
+.header, .footer{
+    display: flex;
+    background-color: rgb(53, 49, 49);
+    color: whitesmoke;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+  }
+.Title{
+    font-family: "MyFont2";
+    display: flex;
+    font-size: 60px;
+}
+.loading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.meme{
+    font-family: "MyFont";
+    font-size: 50px;
+}
+.memeLoad{
+    font-family: "MyFont";
+    font-size: 250px;
+}
+.counters{
+    font-family: "MyFont2";
+    display: flex;
+    gap: 20px;
+    font-size: 26px;
+}
+.App{
+    display: flex;
+    background-color:rgb(243, 243, 243);
+    flex-direction: column;
+    flex: 1 0 80%; 
+}
+.cardsContainer{
+    display: flex;
+    padding: 20px 0px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+img{
+    height: 360px;
+    width: 280px;
+}
+.cardContent{
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    height: 400px;
+}
+.card{
+    border: 1px solid rgb(53, 49, 49);
+    border-radius: 5px;
+    padding: 10px;
+    background-color:whitesmoke ;
+    cursor: pointer;
+}
+.cardTitle{
+    font-size: 18px;
+    color: rgb(53, 49, 49);
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+.endGame{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(243, 243, 243);
+    border:2px solid rgb(228, 227, 227);
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    position: fixed;
+    top: calc(50% - 250px);
+    left: calc(50% - 200px);
+    -webkit-box-shadow: 0 0 400px rgb(51, 47, 47);
+    box-shadow: 0 0 400px rgb(51, 47, 47);
+}
+.startGame{
+    font-size: 18px;
+    background-color: rgb(51, 47, 47);
+    color:rgb(228, 227, 227) ;
+    padding: 10px 30px;
+    border: 0px;
+    border-radius: 5px; 
+    cursor: pointer;
+}
